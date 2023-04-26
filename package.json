@@ -9,10 +9,34 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "@rainbow-me/rainbowkit": "^0.12.8",
+    "@truffle/hdwallet-provider": "^2.1.9",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "bootstrap": "^5.2.3",
+    "classnames": "^2.3.2",
+    "dotenv": "^16.0.3",
+    "env": "^0.0.2",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
+    "ethers": "^5.7.2",
+    "fs": "^0.0.1-security",
+    "ganache": "^7.8.0",
+    "lodash": "^4.17.21",
     "next": "13.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-strap": "^0.0.1",
+    "wagmi": "^0.12.10",
+    "web3": "^1.9.0"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.6.3"
   }
 }

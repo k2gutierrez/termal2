@@ -1,4 +1,4 @@
-.main {
+/*.main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -108,7 +108,7 @@
   position: relative;
 }
 /* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
+/*@media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
@@ -126,7 +126,7 @@
 }
 
 /* Mobile */
-@media (max-width: 700px) {
+/*@media (max-width: 700px) {
   .content {
     padding: 4rem;
   }
@@ -203,7 +203,7 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+/*@media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
@@ -226,4 +226,158 @@
   to {
     transform: rotate(0deg);
   }
+}*/
+
+.App {
+  text-align: center;
+}
+
+.circ1 {
+  text-align: end;
+  z-index: -1;
+  margin-bottom: -10%;
+}
+
+.circ2 {
+  text-align: start;
+  padding: 15px;
+  margin-bottom: -5%;
+}
+
+.circ3 {
+  text-align: start;
+  margin-bottom: -5%;
+}
+
+.caja {
+  border-radius: 5%;
+  padding: 10px;
+  border-color: #009999;
+  border-style: ridge;
+}
+
+.firstnum {
+  text-align:initial;
+  z-index: -1;
+}
+
+.zona2 {
+  background-color: #006666;
+}
+
+.textZona2 {
+  font-size: 80px;
+  margin-left: 40px;
+}
+
+.z2titles {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.zona3 {
+  background-color:#009999;
+}
+
+.zona4 {
+  background-color: #009966;
+}
+
+.textWhite {
+  color: white;
+}
+
+.green {
+  color:#006666;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.regfounder {
+  content: url(../public/assets/registerfounder1.png);
+}
+
+.regfounder:hover {
+  content: url(../public/assets/registerfounder2.png);
+}
+
+.invfounder {
+  content: url(../public/assets/registerinvestor1.png);
+}
+
+.invfounder:hover {
+  content: url(../public/assets/registerinvestor2.png);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.blanco {
+  color: aliceblue;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {    margin-left: 20px;
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer1 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .footer2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .circ1 {
+    width: 100px;
+    z-index: -1;
+    margin-bottom: -10%;
+  }
+
+  .circ2 {
+    margin-bottom: -25%;
+  }
+
+  .circ3 {
+    text-align: start;
+    margin-bottom: -10%;
+  }
+
+  .inv {
+    margin-top: 5px;
+  }
+
 }

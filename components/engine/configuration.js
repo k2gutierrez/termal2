@@ -1,0 +1,8 @@
+export const contractKeys = {
+    termalKey: "0x545282C657F6AEa559755d44B44FB481afd16752",
+    InvestorHandlerContractKey: "0xb4a5160F884A3d561411A7a9598E185b5D2aC3B7",
+    StartupHandlerContractKey: "0xeE7968765193D558A3a57923c5cDD586a1570509",
+    DaiTokenContractKey: "0x46dABf93F641Ef6150e2602Ff73B79c07dC201F3",
+    TermalTokenContractKey: "0x63332AC1412D2DDD248bd87018E6339B4F0fe4a5",
+    startupTokenContractKey: "0x061aAFA3412cDD57264Ed232D66D6B9187149B9F"
+}
