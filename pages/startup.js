@@ -197,7 +197,7 @@ export default function Startup () {
       {mounted ? isOwner && (
         <div>
           <div className={cls(styles.green, 'row text-center mt-3')}>
-            <h1>Manager's Dashboard</h1>
+            <h1>Managers Dashboard</h1>
           </div>
           <div className={cls(styles.green, 'row')}>
             <div className='col-md-6 col-12'>

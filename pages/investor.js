@@ -216,7 +216,7 @@ export default function Investor () {
       {mounted ? isOwner && (
         <div>
           <div className={cls(styles.green, 'row text-center mt-3')}>
-            <h1>Manager's Dashboard</h1>
+            <h1>Managers Dashboard</h1>
           </div>
           <div className={cls(styles.green, 'row')}>
             <div className='col-md-6 col-12'>
@@ -225,11 +225,11 @@ export default function Investor () {
                 <form id='Form1' onSubmit= {e => createInvestorF(e)}>
                   <div className="form-group p-2">
                     <div className='row mb-2'>
-                      <label htmlFor="investor">Investor's Wallet: </label>
+                      <label htmlFor="investor">Investors Wallet: </label>
                       <input type="text" className="form-control" id="investor" />
                     </div>
                     <div className='row mb-2'>
-                      <label htmlFor="investorName">Investor's Name: </label>
+                      <label htmlFor="investorName">Investors Name: </label>
                       <input type="text" className="form-control" id="investorName" />
                     </div>
                     <button type="submit" className="btn btn-success">Create Investor</button>
@@ -237,7 +237,7 @@ export default function Investor () {
                 </form>
               </div>
               <div className='row mt-5'>
-                <h2>Create Investors' Contract</h2>
+                <h2>Create Investors Contract</h2>
                 <form id='Form2' onSubmit= {e => createInvestorContractF(e)}>
                   <div className="form-group p-2">
                     <div className='row mb-2'>

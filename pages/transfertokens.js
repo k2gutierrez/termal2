@@ -136,7 +136,7 @@ export default function Transfertokens () {
       {mounted ? isOwner && (
         <div>
         <div className={cls(styles.green, 'row text-center mt-3')}>
-          <h1>Manager's Dashboard</h1>
+          <h1>Manages Dashboard</h1>
         </div>
         <div className='row mt-5'>
           <div className='col-md-6 col-12'>
